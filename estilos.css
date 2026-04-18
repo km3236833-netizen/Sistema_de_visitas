@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(135deg, #1a0000, #4b0000, #8b0000);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.container-custom {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    width: 95%;
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.6);
+}
+
+/* TITULOS */
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #5a0000;
+    margin-bottom: 20px;
+}
+
+/* BOTONES */
+.btn-primary {
+    background: linear-gradient(45deg, #8b0000, #4b0000);
+    border: none;
+}
+.btn-primary:hover {
+    background: linear-gradient(45deg, #a00000, #5a0000);
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #8b0000, #000000);
+    border: none;
+}
+.btn-success:hover {
+    background: linear-gradient(45deg, #a00000, #1a0000);
+}
+
+.btn-warning {
+    background: linear-gradient(45deg, #b8860b, #5a0000);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(45deg, #000000, #8b0000);
+    border: none;
+}
+
+/* TABLA */
+.table {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: linear-gradient(45deg, #4b0000, #000000);
+    color: white;
+}
+
+.table tbody tr:hover {
+    background: rgba(139, 0, 0, 0.1);
+}
+
+/* ESTADO */
+.estado-dentro {
+    color: green;
+    font-weight: bold;
+}
+
+.estado-fuera {
+    color: red;
+    font-weight: bold;
+}
+
+/* INPUTS */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #8b0000;
+}
+
+/* SOMBRA A BOTONES */
+.btn {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
