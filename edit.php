@@ -1,9 +1,11 @@
 <?php
 include "Crud.php";
-
-$id = $_GET['id'];
+//$id Guarda el id  del registro
+$id = $_GET['id'];// obtiene id
+//$_GET = Recibe datos desde la URL
 $crud = new Crud();
-$d = $crud->obtener($id);
+//$crud = Crea un objeto para usar las funciones del CRUD
+$d = $crud->obtener($id);// obtiene registro
 ?>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">

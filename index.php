@@ -2,6 +2,8 @@
 include "Crud.php";
 $crud = new Crud();
 $datos = $crud->mostrar();
+//$datos = Guarda todos los registros de la base de datos 
+//$d = Representa un solo registro
 ?>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">

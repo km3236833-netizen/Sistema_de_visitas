@@ -1,6 +1,7 @@
 <?php
-include "Crud.php";
 
+include "Crud.php";
+// Recibe datos del formulario
 $data = [
     "nombre" => $_POST['nombre'],
     "visitado" => $_POST['visitado'],

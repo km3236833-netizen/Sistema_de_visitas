@@ -1,21 +1,14 @@
 <?php
 include "Crud.php";
 
-$id = $_POST['id'];
-
-$data = [
-    "nombre" => $_POST['nombre'],
-    "visitado" => $_POST['visitado'],
-    "fecha" => $_POST['fecha'],
-    "entrada" => $_POST['entrada'],
-    "salida" => $_POST['salida'] ?? NULL
-];
+$id = $_GET['id']; // obtiene id
 
 $crud = new Crud();
 
-if($crud->actualizar($id, $data)){
+if($crud->eliminar($id)){
     header("Location: index.php");
-}else{
-    echo "Error";
+    exit();
+} else {
+    echo "Error al eliminar";
 }
 ?>

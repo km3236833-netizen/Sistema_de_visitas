@@ -6,7 +6,8 @@ ini_set('display_errors', 1);
 
 $id = $_POST['id'];
 
-
+//validar salida
+// $salida Guarda la hora de salida o null si no existe
 $salida = isset($_POST['salida']) && $_POST['salida'] != "" 
           ? $_POST['salida'] 
           : NULL;
